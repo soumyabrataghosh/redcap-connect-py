@@ -1,2 +1,2 @@
 # redcap-connect-py
-Easy python connection scripts
+Easy REDCap-API connection scripts in Python
