@@ -14,4 +14,4 @@ fields = {
 
 r = requests.post('https://redcap-api-end-point-url', fields)
 pr = StringIO(r.text)
-df = pd.read_csv(pr, header=0, squeeze=True).T.to_dict()
+df = pd.read_csv(pr, header=0, squeeze=True)
